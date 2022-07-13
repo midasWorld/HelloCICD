@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  PROJECT_NAME: hellocicd
+  PROJECT_NAME: hello-cicd
   DEPLOY_GROUP: hello-cicd-group
   S3_BUCKET_NAME: hello-cicd-bucket
   AWS_REGION: ap-northeast-2
