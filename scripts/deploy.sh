@@ -9,7 +9,7 @@ cp $REPOSITORY/zip/*.jar $REPOSITORY/
 
 echo "> 현재 구동 중인 애플리케이션 pid 확인"
 
-CURRENT_PID=$(pgrep -fi hello-cicd | grep jar | awk '{print $1}')
+CURRENT_PID=$(pgrep -fl hello-cicd | grep jar | awk '{print $1}')
 
 echo "현재 구동 중인 애플리케이션 pid: $CURRENT_PID"
 
@@ -33,7 +33,5 @@ chmod +x $JAR_NAME
 
 echo "> $JAR_NAME 실행"
 
-nohup java -jar \
-  -Dspring.prifiles.active=real \
-  $JAR_NAME > $REPOSITORY/nohup.out 2>&1 &
+nohup java -jar -Dspring.profiles.active=real $JAR_NAME > $REPOSITORY/nohup.out 2>&1 &
 
