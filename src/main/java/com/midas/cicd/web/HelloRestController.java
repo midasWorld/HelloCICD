@@ -10,6 +10,6 @@ public class HelloRestController {
 
 	@GetMapping
 	public String hello() {
-		return "Hello New World V4";
+		return "Hello New World V5";
 	}
 }
