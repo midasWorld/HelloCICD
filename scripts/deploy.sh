@@ -1,7 +1,7 @@
 #!/bin/bash
 
 REPOSITORY=/home/ec2-user/app/hello
-PROJECT_NAME=hello-cicd
+PROJECT_NAME=hello
 
 echo "> Build 파일 복사"
 
