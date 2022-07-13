@@ -7,8 +7,8 @@ on:
 
 env:
   PROJECT_NAME: hellocicd
-	S3_BUCKET_NAME: hello-cicd
-	AWS_REGION: ap-northeast-2
+  S3_BUCKET_NAME: hello-cicd
+  AWS_REGION: ap-northeast-2
 
 
 jobs:
