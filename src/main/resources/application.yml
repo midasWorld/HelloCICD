@@ -1,3 +1,3 @@
 spring:
   application:
-    name: hellocicd
+    name: hello-cicd
