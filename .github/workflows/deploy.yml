@@ -1,4 +1,4 @@
-name: ticket-cicd
+name: hello-cicd
 
 on:
   push:
