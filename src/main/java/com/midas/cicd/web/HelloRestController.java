@@ -10,6 +10,6 @@ public class HelloRestController {
 
 	@GetMapping
 	public String hello() {
-		return "젭알.. 되어라!";
+		return "CI/CD 대성공! (젭알..)";
 	}
 }
